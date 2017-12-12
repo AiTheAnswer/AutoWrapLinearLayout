@@ -1,9 +1,9 @@
 # AutoWrapLinearLayout
 # 自定义ViewGroup，实现自动换行的LinearLayout
 # 效果图
-\<br> ![居左](/design/left.jpg)
-\<br> ![居中](/design/center.jpg)  
-\<br> ![居右](/design/right.jpg)
+\ ![居左](/design/left.jpg)
+\ ![居中](/design/center.jpg)  
+\ ![居右](/design/right.jpg)
 
 
 # 使用方法
