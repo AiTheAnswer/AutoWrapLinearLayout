@@ -33,6 +33,16 @@
         mAutoWrapLinearLayout.setGravity(AutoWrapLinearLayout.Gravity.LEFT);//设置View居左
         mAutoWrapLinearLayout.setGravity(AutoWrapLinearLayout.Gravity.CENTER);//设置View居中
         mAutoWrapLinearLayout.setGravity(AutoWrapLinearLayout.Gravity.RIGHT);//设置View居右
-        mAutoWrapLinearLayout.addView(view);//添加View
 ```
 
+#### 3、添加View
+```Java
+       for (int i = 0; i < str.length; i++) {
+            final TextView textView1 = new TextView(this);
+            textView1.setGravity(Gravity.CENTER);
+            textView1.setBackgroundDrawable(getResources().getDrawable(R.drawable.txt_bg));
+            textView1.setText(str[i]);
+            textView1.setTextSize(12);
+            mAutoWrapLinearLayout.addView(textView1);
+            }
+```
